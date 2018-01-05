@@ -15,7 +15,7 @@ type Configuration struct {
 // LoadConfig returns a configuration object
 func LoadConfig() (*Configuration, error) {
 	// initialize config & set default
-	viper.SetEnvPrefix("US")
+	viper.SetEnvPrefix("SHRINK_URL")
 	viper.SetEnvKeyReplacer(strings.NewReplacer(".", "_"))
 	viper.AutomaticEnv()
 	viper.SetDefault("app.host", "localhost:3000")

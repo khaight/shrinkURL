@@ -41,21 +41,21 @@ curl http://localhost:3000/api/url/6i
 
 ### Config EnvVars
 
-#####  URL_APP_HOST
+#####  SHRINK_UR_APP_HOST
 The app host name
 
 ```sh
-export URL_APP_HOST=localhost:3000
+export SHRINK_URL_APP_HOST=localhost:3000
 ```
 
-#####  URL_APP_PORT  (default 3000)
+#####  SHRINK_URL_APP_PORT  (default 3000)
 
 ```sh
-export URL_APP_PORT =localhost
+export SHRINK_URL_APP_PORT=localhost
 ```
 
-#####  URL_REDIS_HOST  (default localhost:6379)
+#####  SHRINK_URL_REDIS_HOST  (default localhost:6379)
 
 ```sh
-export URL_REDIS_HOST=localhost:6379
+export SHRINK_URL_REDIS_HOST=localhost:6379
 ```
